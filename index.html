@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team 14 First Meeting</title>
+    </head>
+    <body>
+        <header>
+            <div>Team 14 <b class="term">First</b>  GBM</div>
+
+            <nav>
+                <ul>
+                    <li><a href="#attendencelist">Attendance list</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#recording">Recording</a></li>
+                    <li><a href="#qna">Q&A</a></li>
+                    <li><a href="#agreeform">Agree form</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <img 
+            src="https://static.vecteezy.com/system/resources/thumbnails/007/229/427/small/welcome-calligraphic-inscription-with-smooth-lines-vector.jpg" 
+            alt="welcome"
+            width="500"
+            />
+            <section>
+                <h1>Date: 10/32/3030</h1>
+            </section>
+
+
+            <h2 id="attendencelist">Attendance list</h2>
+
+            <ol>
+                <li><input type="checkbox">Haonan He</li>
+                <li><input type="checkbox">Haonan He</li>
+                <li><input type="checkbox">Haonan He</li>
+                <li><input type="checkbox">Haonan He</li>
+            </ol>
+            
+            <h2 id="agenda">Agenda</h2> 
+            <h3>Icebraker</h3>
+            <h3>More on the vision of the company</h3>
+            <h3>How to implement and execute the plan</h3>
+
+            <h2 id="recording">Recording</h2>
+            <figure>
+                <figcaption>Listen to the podcast:</figcaption>
+                <audio
+                    controls
+                    src="audio.m4a">
+                        <a href="audio.m4a">
+                            Download audio
+                        </a>
+                </audio>
+            </figure>
+            <video controls width="250">
+
+                <source src="30s.mp4"
+                        type="video/webm">
+            
+                <source src="30s.mp4"
+                        type="video/mp4">
+            
+                Download the
+                <a href="30s.mp4">WEBM</a>
+                or
+                <a href="30s.mp4">MP4</a>
+                video.
+            </video>
+
+            <details>
+                <summary>Notes</summary>
+                For those who are whatching the podacast, please email me your weekly schedule.
+            </details>
+            
+
+            <h2 id="qna">Q&A</h2>
+            <p>Feel free to email me if you have any <span id="bolded">questions</span>.</p>
+
+            <label for="story">Notes:</label>
+
+            <textarea id="story" name="story"
+                      rows="5" cols="33">
+            We needs more inovative ideas!
+            </textarea>            
+        </main>
+
+        <hr />
+        <footer>
+            <h6 id="agreeform">Agree form</h6>
+
+            <form onsubmit="alert('Agree')">
+                <input type="text" placeholder="Enter you agree this meeting content" />
+
+                <button>Submit</button>
+            </form>
+        </footer>
+
+
+        <form>
+            <fieldset>
+              <legend>Choose your <i>department</i></legend>
+          
+              <input type="radio" id="kraken" name="Fontend" value="K">
+              <label for="kraken">Frontend</label><br>
+          
+              <input type="radio" id="sasquatch" name="Backend" value="S">
+              <label for="sasquatch">Backend</label><br>
+          
+              <input type="radio" id="mothman" name="Human Resource" value="M" />
+              <label for="mothman">Human Resource</label>
+            </fieldset>
+            <label for="position-select">Choose your <strong>position</strong>:</label>
+
+            <select name="position" id="position-select">
+                <option value="">--Please choose an option--</option>
+                <option value="Designer">Designer</option>
+                <option value="UIgraphic">UI graphic</option>
+                <option value="SystemDesigner">SystemDesigner</option>
+            </select>
+            
+            <label for="Chosepronouns">Choose your <em>pronon</em>:</label>
+            <input list="pronouns" id="Chosepronouns" name="Chosepronouns">
+            
+            <datalist id="pronouns">
+                <option value="he/his">
+                <option value="she/her">
+                <option value="Choose not to answer">
+            </datalist>
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    
+**Document metadata
+
+//title
+//meta
+link (usually <link> is used to link a stylesheet, but since we're not using CSS, you can use it to link a favicon instead)
+
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Content sectioning
+
+//main
+//header, footer
+//nav
+//h1, //h2, //h3
+//section
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Text content
+
+//div, 
+//span (t vaScript, but are too important to leave out, so just include them somewhere in your document. It’s okay if they aren’t useful)
+//hr
+//p
+//ul
+//ol
+//li
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Inline text semantics
+
+//b
+//strong (know the differences between b and strong)
+//i
+//em (know the differences between i and em)
+//a
+//br
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Images and multimedia
+
+//img
+//audio
+//video
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Interactive Elements
+
+//details
+//summary
+------------------------------------------- -------------------------------------------------------------------------------------------
+**Forms
+
+//form
+//fieldset
+//input (of types checkbox, radio, text, and date)*
+//textarea
+//datalist
+//select
+//option
+//button
+
+
+
+-->
