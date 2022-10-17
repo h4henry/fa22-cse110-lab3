@@ -1,0 +1,147 @@
+/* color */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    color: aqua; /* change color to aqua */
+}
+
+h3:hover {
+    color: red; /* change color to aqua */
+}
+
+h2 {
+    color: rgb(12, 232, 17);
+}
+
+
+#recording {
+    color: rgb(104, 42, 26);
+    display:grid;
+    max-width: fit-content;
+    min-width: none;
+    position: static;
+}
+#recording:active{
+    color: black;
+
+}
+#agenda {
+    display: flex;
+    color: pink;
+    position: absolute;
+}
+
+
+/* background */
+body {
+    background-color: lightblue;
+  }
+
+/* relative units */
+
+.name1 {
+    font-size: 1em;
+}
+
+.name2 {
+    font-size: 2em;
+}
+.name3 {
+    font-size: 3em;
+}
+
+/* absolute units */
+
+.name4 {
+    font-size: 5rem;
+}
+
+.name5 {
+    font-size: 2rem;
+}
+.name6 {
+    font-size: 3rem;
+}
+
+/* Box Model */
+/* Margin */
+.name3 {
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    padding-left: 2px;
+    padding-top: 4px;
+    padding-right: 1px;
+    padding-bottom: 7px;
+    border-style: dotted;
+    border-color:bisque;
+    border: width 3px;
+    border: radius 8px;
+
+    
+  }
+
+/* Box Model */
+.name4 {
+    margin: -40px 23px 34px 12px;
+    padding: 12px 34px 33px 33px;
+}
+
+/* text */
+p {
+    text-align: left;
+    text-decoration:line-through
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: inherit;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+h2[id="seatingchart"] {
+    color: black;
+}
+
+h1,h2 {
+    font-size: 1px;
+}
+
+ol li {
+    background-color: brown;
+}
+
+ol > li {
+    font-size: 2rem;
+}
+
+p ~ span {
+    color: gold;
+}
+
+div.name2{
+    color: blue;
+}
+
+body + head {
+    font-size: 10rem;
+}
